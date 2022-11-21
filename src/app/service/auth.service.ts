@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../Model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-authURL = 'http://localhost:8080/auth/';
+authURL = 'https://mysql-testportfolio.herokuapp.com/auth/';
 
   constructor(private httpClient:HttpClient) { }
 
