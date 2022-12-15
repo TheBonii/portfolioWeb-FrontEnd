@@ -26,6 +26,10 @@ import { EditSkillComponent } from './components/hardysoft/edit-skill.component'
 import { NewSkillComponent } from './components/hardysoft/new-skill.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CommonModule } from '@angular/common';
+import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideStorage,getStorage } from '@angular/fire/storage';
 
 @NgModule({
   declarations: [
@@ -48,6 +52,7 @@ import { CommonModule } from '@angular/common';
     EditeducacionComponent,
     EditSkillComponent,
     NewSkillComponent,
+    EditAcercaDeComponent,
   ],
   imports: [
     BrowserModule,
@@ -57,6 +62,8 @@ import { CommonModule } from '@angular/common';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
     CommonModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideStorage(() => getStorage()),
   ],
   providers: [
     interceptorProvider
