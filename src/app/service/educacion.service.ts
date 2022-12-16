@@ -7,7 +7,7 @@ import { Educacion } from '../Model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL =  'portfolioweb-backend.faithful-renie.koyeb/educacion/';
+  URL =  'portfolioweb-backend-production-5a29.up.railway.app/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 
