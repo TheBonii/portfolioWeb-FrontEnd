@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../Model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-authURL = 'portfolioweb-backend-production-5a29.up.railway.app/auth/';
+authURL = 'portfolioweb-backend.faithful-renie.koyeb/auth/';
 
   constructor(private httpClient:HttpClient) { }
 
