@@ -1,14 +1,16 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment';
 import { Experiencia } from '../Model/experiencia';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SExperienciaService {
-  URL = environment.URL + 'explab/'
+  detail(id: any) {
+    throw new Error('Method not implemented.');
+  }
+  URL = 'portfolioweb-backend-production-5a29.up.railway.app/explab/'
 
 
   constructor(private httpClient: HttpClient) { }

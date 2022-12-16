@@ -15,7 +15,7 @@ export const environment = {
   },
   production: false,
 
-  URL: 'CAMBIAR/'
+  URL: 'portfolioweb-backend-production-5a29.up.railway.app/'
 };
 
 /*
