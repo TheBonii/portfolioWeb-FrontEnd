@@ -10,7 +10,7 @@ export class SExperienciaService {
   detail(id: any) {
     throw new Error('Method not implemented.');
   }
-  URL = 'portfolioweb-backend-production-5a29.up.railway.app/explab/'
+  URL = 'faithful-renie-thebonii.koyeb.app/explab/'
 
 
   constructor(private httpClient: HttpClient) { }
