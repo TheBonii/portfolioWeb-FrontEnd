@@ -7,7 +7,7 @@ import { Educacion } from '../Model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-  URL =  'faithful-renie-thebonii.koyeb.app/educacion/';
+  URL =  'https://faithful-renie-thebonii.koyeb.app/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

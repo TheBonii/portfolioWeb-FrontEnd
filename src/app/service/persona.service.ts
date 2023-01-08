@@ -8,7 +8,7 @@ import { persona } from '../Model/persona.model';
 })
 
 export class PersonaService {
-  URL = 'faithful-renie-thebonii.koyeb.app/personas/';
+  URL = 'https://faithful-renie-thebonii.koyeb.app/personas/';
 
   constructor(private httpClient: HttpClient) { }
 
